@@ -1,3 +1,6 @@
+import os
+os.environ['STREAMLIT_BROWSER_GATHER_USAGE_STATS'] = 'false'
+
 import pandas as pd
 import streamlit as st
 import plotly.express as px

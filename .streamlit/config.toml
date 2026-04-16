@@ -1,5 +1,12 @@
 [server]
 headless = true
+enableXsrfProtection = false
 
 [browser]
 gatherUsageStats = false
+
+[client]
+showErrorDetails = true
+
+[runner]
+fastReruns = true
